@@ -2298,3 +2298,12 @@ cpu-bind=MASK - n2cn0956, task 127 31 [1151133]: mask |--------|--------||------
   SPARSITY_INFO| Eps filter for M virt/occ tensors:                     1.00E-09
   SPARSITY_INFO| Eps filter for P matrix:                               1.00E-08
   SPARSITY_INFO| Minimum tensor block size:                                    5
+
+  RPA_LOW_SCALING_INFO| Info for time point   1
+     Execution time (s):                                                   303.3
+     Occupancy of D occ:                                      8.0E+06 / 100.000%
+     Occupancy of D virt:                                     8.0E+06 / 100.000%
+     Occupancy of 3c ints:                                    7.9E+09 /  10.628%
+     Occupancy of M occ:                                      2.7E+10 /  35.780%
+     Occupancy of M virt:                                     2.8E+10 /  37.884%
+
