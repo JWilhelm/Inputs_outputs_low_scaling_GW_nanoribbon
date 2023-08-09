@@ -1,0 +1,73 @@
+&GLOBAL
+  PROJECT  GW_PBE_4benzene
+  PRINT_LEVEL MEDIUM
+  RUN_TYPE ENERGY
+&END GLOBAL
+&FORCE_EVAL
+  METHOD Quickstep
+  &DFT
+    BASIS_SET_FILE_NAME  EMSL_BASIS_SETS
+    BASIS_SET_FILE_NAME  BASIS_RI_cc-TZ
+    BASIS_SET_FILE_NAME  HFX_BASIS
+    SORT_BASIS EXP
+    POTENTIAL_FILE_NAME  ALL_POTENTIALS
+    &MGRID
+      CUTOFF 400
+      REL_CUTOFF 50
+    &END MGRID
+    &QS
+      METHOD GAPW
+    &END QS
+    &POISSON
+      PERIODIC NONE
+      PSOLVER MT
+    &END
+    &SCF
+      SCF_GUESS RESTART
+      EPS_SCF 1.0E-3
+      MAX_SCF 100
+      &PRINT
+        &RESTART OFF
+        &END
+      &END
+    &END SCF
+    &XC
+      &XC_FUNCTIONAL PBE
+        &PBE
+        &END
+      &END XC_FUNCTIONAL
+      &WF_CORRELATION
+        &LOW_SCALING
+        &END
+        &RI_RPA
+          RPA_NUM_QUAD_POINTS 10
+          &GW
+            RI_SIGMA_X            TRUE
+          &END GW
+        &END RI_RPA
+      &END
+    &END XC
+  &END DFT
+  &SUBSYS
+    &CELL
+      ABC [angstrom]  50.0 30.0 10.0
+      PERIODIC NONE
+    &END CELL
+    &TOPOLOGY
+      COORD_FILE_NAME  nanoribbon.xyz
+      COORD_FILE_FORMAT xyz
+      &CENTER_COORDINATES
+      &END
+    &END TOPOLOGY
+    &KIND H
+      BASIS_SET ORB    aug-cc-pVDZ
+      BASIS_SET RI_AUX RI_TZ
+      POTENTIAL ALL
+    &END KIND
+    &KIND C
+      BASIS_SET ORB    aug-cc-pVDZ
+      BASIS_SET RI_AUX RI_TZ
+      POTENTIAL ALL
+    &END KIND
+  &END SUBSYS
+&END FORCE_EVAL
