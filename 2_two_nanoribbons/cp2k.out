@@ -2307,3 +2307,462 @@ cpu-bind=MASK - n2cn0956, task 127 31 [1151133]: mask |--------|--------||------
      Occupancy of M occ:                                      2.7E+10 /  35.780%
      Occupancy of M virt:                                     2.8E+10 /  37.884%
 
+
+  RPA_LOW_SCALING_INFO| Info for time point   2
+     Execution time (s):                                                   300.3
+     Occupancy of D occ:                                      8.0E+06 / 100.000%
+     Occupancy of D virt:                                     8.0E+06 / 100.000%
+     Occupancy of 3c ints:                                    7.9E+09 /  10.628%
+     Occupancy of M occ:                                      2.7E+10 /  35.750%
+     Occupancy of M virt:                                     2.8E+10 /  37.881%
+
+
+  RPA_LOW_SCALING_INFO| Info for time point   3
+     Execution time (s):                                                   299.9
+     Occupancy of D occ:                                      8.0E+06 / 100.000%
+     Occupancy of D virt:                                     8.0E+06 / 100.000%
+     Occupancy of 3c ints:                                    7.9E+09 /  10.628%
+     Occupancy of M occ:                                      2.6E+10 /  35.686%
+     Occupancy of M virt:                                     2.8E+10 /  37.872%
+
+
+  RPA_LOW_SCALING_INFO| Info for time point   4
+     Execution time (s):                                                   299.9
+     Occupancy of D occ:                                      8.0E+06 / 100.000%
+     Occupancy of D virt:                                     8.0E+06 / 100.000%
+     Occupancy of 3c ints:                                    7.9E+09 /  10.628%
+     Occupancy of M occ:                                      2.6E+10 /  35.558%
+     Occupancy of M virt:                                     2.8E+10 /  37.867%
+
+
+  RPA_LOW_SCALING_INFO| Info for time point   5
+     Execution time (s):                                                   298.8
+     Occupancy of D occ:                                      8.0E+06 / 100.000%
+     Occupancy of D virt:                                     8.0E+06 / 100.000%
+     Occupancy of 3c ints:                                    7.9E+09 /  10.628%
+     Occupancy of M occ:                                      2.6E+10 /  35.315%
+     Occupancy of M virt:                                     2.8E+10 /  37.837%
+
+
+  RPA_LOW_SCALING_INFO| Info for time point   6
+     Execution time (s):                                                   295.8
+     Occupancy of D occ:                                      8.0E+06 / 100.000%
+     Occupancy of D virt:                                     8.0E+06 / 100.000%
+     Occupancy of 3c ints:                                    7.9E+09 /  10.628%
+     Occupancy of M occ:                                      2.6E+10 /  34.848%
+     Occupancy of M virt:                                     2.8E+10 /  37.604%
+
+
+  RPA_LOW_SCALING_INFO| Info for time point   7
+     Execution time (s):                                                   290.0
+     Occupancy of D occ:                                      8.0E+06 / 100.000%
+     Occupancy of D virt:                                     8.0E+06 / 100.000%
+     Occupancy of 3c ints:                                    7.9E+09 /  10.628%
+     Occupancy of M occ:                                      2.5E+10 /  33.996%
+     Occupancy of M virt:                                     2.7E+10 /  36.509%
+
+
+  RPA_LOW_SCALING_INFO| Info for time point   8
+     Execution time (s):                                                   280.5
+     Occupancy of D occ:                                      8.0E+06 / 100.000%
+     Occupancy of D virt:                                     8.0E+06 / 100.000%
+     Occupancy of 3c ints:                                    7.9E+09 /  10.628%
+     Occupancy of M occ:                                      2.4E+10 /  32.549%
+     Occupancy of M virt:                                     2.7E+10 /  35.830%
+
+
+  RPA_LOW_SCALING_INFO| Info for time point   9
+     Execution time (s):                                                   269.2
+     Occupancy of D occ:                                      8.0E+06 / 100.000%
+     Occupancy of D virt:                                     8.0E+06 / 100.000%
+     Occupancy of 3c ints:                                    7.9E+09 /  10.628%
+     Occupancy of M occ:                                      2.3E+10 /  30.356%
+     Occupancy of M virt:                                     2.6E+10 /  35.064%
+
+
+  RPA_LOW_SCALING_INFO| Info for time point  10
+     Execution time (s):                                                   241.5
+     Occupancy of D occ:                                      8.0E+06 / 100.000%
+     Occupancy of D virt:                                     8.0E+06 / 100.000%
+     Occupancy of 3c ints:                                    7.9E+09 /  10.628%
+     Occupancy of M occ:                                      2.0E+10 /  26.857%
+     Occupancy of M virt:                                     2.3E+10 /  31.577%
+
+
+  PERFORMANCE| DBCSR total number of flops:                             8.75E+14
+  PERFORMANCE| DBCSR total execution time:                               2877.32
+  PERFORMANCE| DBCSR flop rate (Gflops / MPI rank):                         1.19
+  
+  
+  ******************************************************************************
+  **                                                                          **
+  **                        GW QUASIPARTICLE ENERGIES                         **
+  **                                                                          **
+  ******************************************************************************
+   
+   
+  The GW quasiparticle energies are calculated according to: 
+   
+                      E_GW = E_SCF + Sigc(E_GW) + Sigx - vxc 
+   
+  Upper equation is solved self-consistently for E_GW, see Eq. (12) in J. Phys.
+  Chem. Lett. 9, 306 (2018), doi: 10.1021/acs.jpclett.7b02740
+  
+  
+  ------------
+  G0W0 results
+  ------------
+   
+  Molecular orbital   E_SCF (eV)       Sigc (eV)   Sigx-vxc (eV)       E_GW (eV)
+   313 ( occ )           -6.2332          1.1161         -2.5179         -7.6351
+   314 ( occ )           -6.2310          1.1140         -2.5177         -7.6348
+   315 ( occ )           -6.1734          0.8953         -2.2449         -7.5230
+   316 ( occ )           -6.1730          0.8954         -2.2450         -7.5226
+   317 ( occ )           -5.7312          0.6118         -1.9200         -7.0394
+   318 ( occ )           -5.7309          0.6119         -1.9200         -7.0390
+   319 ( occ )           -5.3278          0.3654         -1.6190         -6.5814
+   320 ( occ )           -5.3275          0.3655         -1.6189         -6.5809
+   321 ( occ )           -5.0593          0.2525         -1.4040         -6.2108
+   322 ( occ )           -5.0585          0.2527         -1.4038         -6.2095
+   323 ( vir )           -2.6957         -2.3818          4.0842         -0.9933
+   324 ( vir )           -2.6933         -2.3854          4.0896         -0.9891
+   325 ( vir )           -2.3838         -2.4652          4.2759         -0.5731
+   326 ( vir )           -2.3811         -2.4706          4.2838         -0.5680
+   327 ( vir )           -1.9661         -2.6670          4.5410         -0.0922
+   328 ( vir )           -1.9626         -2.6753          4.5528         -0.0850
+   329 ( vir )           -1.8097         -2.8488          4.6773          0.0188
+   330 ( vir )           -1.8070         -2.8522          4.6824          0.0232
+   331 ( vir )           -1.7047         -2.8259          4.7281          0.1975
+   332 ( vir )           -1.7025         -2.8304          4.7347          0.2018
+   
+  GW HOMO-LUMO gap (eV)                                                   5.2163
+  
+  ------------------------------------------------------------------------------
+
+  Total RI-RPA Time=                                                 2974.311963
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy [a.u.]:            -3694.857516649982244
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                DBCSR STATISTICS                             -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ COUNTER                                    TOTAL       BLAS       SMM       ACC
+ flops     9 x     9 x     2             11155320       0.0%    100.0%      0.0%
+ flops     9 x    23 x     9             22818024       0.0%    100.0%      0.0%
+ flops    23 x     9 x     2             39692664       0.0%    100.0%      0.0%
+ flops     9 x    23 x     2             39874824       0.0%    100.0%      0.0%
+ flops     9 x    23 x    23             83184192       0.0%    100.0%      0.0%
+ flops    23 x    23 x     9             83184192       0.0%    100.0%      0.0%
+ flops    23 x    23 x     2            148733640       0.0%    100.0%      0.0%
+ flops    23 x    23 x    23            306316392       0.0%    100.0%      0.0%
+ flops   183 x   183 x   183            784446336       0.0%    100.0%      0.0%
+ flops     9 x     9 x    32           1784851200       0.0%    100.0%      0.0%
+ flops   174 x   183 x   183           2237601024       0.0%    100.0%      0.0%
+ flops   183 x   174 x   183           2237601024       0.0%    100.0%      0.0%
+ flops   183 x   183 x   174           2237601024       0.0%    100.0%      0.0%
+ flops    23 x     9 x    32           6350826240       0.0%    100.0%      0.0%
+ flops     9 x    23 x    32           6379971840       0.0%    100.0%      0.0%
+ flops   174 x   174 x   183           6382665216       0.0%    100.0%      0.0%
+ flops   174 x   183 x   174           6382665216       0.0%    100.0%      0.0%
+ flops   183 x   174 x   174           6382665216       0.0%    100.0%      0.0%
+ flops   174 x   174 x   174          18206290944       0.0%    100.0%      0.0%
+ flops    23 x    23 x    32          23797382400       0.0%    100.0%      0.0%
+ flops    30 x    30 x    30         186221700000       0.0%    100.0%      0.0%
+ flops    76 x    30 x    30         667212861600       0.0%    100.0%      0.0%
+ flops    30 x    76 x    30         667383040800       0.0%    100.0%      0.0%
+ flops    30 x    30 x    76         667913551200       0.0%    100.0%      0.0%
+ flops    76 x    76 x    30        2388246848640       0.0%    100.0%      0.0%
+ flops    76 x    30 x    76        2388977050560       0.0%    100.0%      0.0%
+ flops    30 x    76 x    76        2389014479040       0.0%    100.0%      0.0%
+ flops    76 x    76 x    76        8544312269440       0.0%    100.0%      0.0%
+ flops inhomo. stacks                           0       0.0%      0.0%      0.0%
+ flops total                        17.983181E+12       0.0%    100.0%      0.0%
+ flops max/rank                     75.827514E+09       0.0%    100.0%      0.0%
+ matmuls inhomo. stacks                         0       0.0%      0.0%      0.0%
+ matmuls total                           50746332       0.0%    100.0%      0.0%
+ number of processed stacks                614158       0.0%    100.0%      0.0%
+ average stack size                                     0.0      82.6       0.0
+ marketing flops                    18.015456E+12
+ -------------------------------------------------------------------------------
+ # multiplications                             35
+ max memory usage/rank               1.627734E+09
+ # max total images/rank                        1
+ # max 3D layers                                1
+ # MPI messages exchanged                  268800
+ MPI messages size (bytes):
+  total size                       237.469663E+09
+  min size                           0.000000E+00
+  max size                           2.937888E+06
+  average size                     883.443688E+03
+ MPI breakdown and total messages size (bytes):
+             size <=      128               56160                        0
+       128 < size <=     8192               10560                 29779200
+      8192 < size <=    32768                 360                 11525760
+     32768 < size <=   131072              105720               4768712640
+    131072 < size <=  4194304               96000             232659649440
+   4194304 < size <= 16777216                   0                        0
+  16777216 < size                               0                        0
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                      DBCSR MESSAGE PASSING PERFORMANCE                      -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ ROUTINE             CALLS      AVE VOLUME [Bytes]
+ MP_Bcast               29                     12.
+ MP_Allreduce          282                     14.
+ MP_Alltoall          1301                 391017.
+ MP_ISend             2240                 410136.
+ MP_IRecv             2240                 409254.
+ -------------------------------------------------------------------------------
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                DBM STATISTICS                               -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+    M  x    N  x    K                                          COUNT     PERCENT
+   ??  x    ?  x   ??                                    40102593762      13.09%
+    ?  x   ??  x   ??                                    39545086264      12.91%
+   ??  x    ?  x    ?                                    94989312004      31.01%
+   ??  x  ???  x    ?                                      440095744       0.14%
+   ??  x  ???  x   ??                                      168027728       0.05%
+    ?  x    ?  x    ?                                     3807547213       1.24%
+    ?  x    ?  x   ??                                   102353814708      33.41%
+   ??  x   ??  x   ??                                    15480218827       5.05%
+  ???  x    ?  x    ?                                     6851061192       2.24%
+    ?  x  ???  x    ?                                     2209280944       0.72%
+    ?  x  ???  x   ??                                      400245824       0.13%
+ -------------------------------------------------------------------------------
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                GRID STATISTICS                              -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ LP    KERNEL             BACKEND                              COUNT     PERCENT
+ 1     collocate ortho    REF                                1901663      15.33%
+ 1     integrate ortho    REF                                1901663      15.33%
+ 2     collocate ortho    REF                                1458821      11.76%
+ 2     integrate ortho    REF                                1458821      11.76%
+ 0     collocate ortho    REF                                1185627       9.56%
+ 0     integrate ortho    REF                                1185627       9.56%
+ 2     collocate general  REF                                 965632       7.78%
+ 2     integrate general  REF                                 965632       7.78%
+ 3     collocate ortho    REF                                 556347       4.48%
+ 3     integrate ortho    REF                                 556347       4.48%
+ 4     collocate ortho    REF                                  93748       0.76%
+ 4     integrate ortho    REF                                  93748       0.76%
+ 0     collocate general  REF                                  41984       0.34%
+ 0     integrate general  REF                                  41984       0.34%
+ -------------------------------------------------------------------------------
+
+ MEMORY| Estimated peak process memory [MiB]                                1343
+
+ -------------------------------------------------------------------------------
+ ----                             MULTIGRID INFO                            ----
+ -------------------------------------------------------------------------------
+ count for grid        1:         838256          cutoff [a.u.]          200.00
+ count for grid        2:         141232          cutoff [a.u.]           66.67
+ count for grid        3:         207956          cutoff [a.u.]           22.22
+ count for grid        4:         151310          cutoff [a.u.]            7.41
+ total gridlevel count  :        1338754
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                         MESSAGE PASSING PERFORMANCE                         -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+
+ ROUTINE             CALLS      AVE VOLUME [Bytes]
+ MP_Group             4539
+ MP_Bcast            10979                 471469.
+ MP_Allreduce        20363                  10971.
+ MP_Sync              8785
+ MP_Alltoall          3458                 210222.
+ MP_SendRecv         11730                  24000.
+ MP_ISendRecv        11730                  24000.
+ MP_Wait             18847
+ MP_comm_split        2499
+ MP_ISend           522187                  86124.
+ MP_IRecv           514427                  88363.
+ -------------------------------------------------------------------------------
+
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                           R E F E R E N C E S                               -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ 
+ CP2K version 2023.1 (Development Version), the CP2K developers group (2023).
+ CP2K is freely available from https://www.cp2k.org/ .
+
+ Kuehne,Thomas D.; Iannuzzi,Marcella; Del Ben,Mauro;
+ Rybkin,Vladimir V.; Seewald,Patrick; Stein,Frederick; Laino,Teodoro;
+ Khaliullin,Rustam Z.; Schuett,Ole; Schiffmann,Florian; Golze,Dorothea;
+ Wilhelm,Jan; Chulkov,Sergey; Bani-Hashemian,Mohammad Hossein;
+ Weber,Valery; Borstnik,Urban; Taillefumier,Mathieu;
+ Jakobovits,Alice Shoshana; Lazzaro,Alfio; Pabst,Hans; Mueller,Tiziano;
+ Schade,Robert; Guidon,Manuel; Andermatt,Samuel; Holmberg,Nico;
+ Schenter,Gregory K.; Hehn,Anna; Bussy,Augustin; Belleflamme,Fabian;
+ Tabacchi,Gloria; Gloess,Andreas; Lass,Michael; Bethune,Iain;
+ Mundy,Christopher J.; Plessl,Christian; Watkins,Matt;
+ VandeVondele,Joost; Krack,Matthias; Hutter,Juerg. 
+ The Journal of Chemical Physics, 152 (19), (2020). 
+ CP2K: An electronic structure and molecular dynamics software package -
+ Quickstep: Efficient and accurate electronic structure calculations.
+ https://doi.org/10.1063/5.0007045
+
+ Wilhelm, J; Golze, D; Talirz, L; Hutter, J; Pignedoli, CA. 
+ JOURNAL OF PHYSICAL CHEMISTRY LETTERS, 9, 306-312 (2018). 
+ Toward GW calculations on thousands of atoms.
+ https://doi.org/10.1021/acs.jpclett.7b02740
+
+ Wilhelm, J; Hutter, J. PHYSICAL REVIEW B, 95, 235123 (2017). 
+ Periodic GW calculations in the Gaussian and plane-waves scheme.
+ https://doi.org/10.1103/PhysRevB.95.235123
+
+ Wilhelm, J; Del Ben, M; Hutter, J. 
+ JOURNAL OF CHEMICAL THEORY AND COMPUTATION, 12, 3623-3635 (2016). 
+ GW in the Gaussian and plane waves scheme with application to linear acenes.
+ https://doi.org/10.1021/acs.jctc.6b00380
+
+ Wilhelm, J; Seewald, P; Del Ben, M; Hutter, J. 
+ JOURNAL OF CHEMICAL THEORY AND COMPUTATION, 12, 5851-5859 (2016). 
+ Large-Scale Cubic-Scaling Random Phase Approximation Correlation.
+ https://doi.org/10.1021/acs.jctc.6b00840
+
+ Schuett, Ole; Messmer, Peter; Hutter, Juerg; VandeVondele, Joost. 
+ Electronic Structure Calculations on Graphics Processing Units, John
+ Wiley & Sons, Ltd, 173-190 (2016). 
+ GPU-Accelerated Sparse Matrix-Matrix Multiplication for
+ Linear Scaling Density Functional Theory.
+ https://doi.org/10.1002/9781118670712.ch8
+
+ Heinecke, A; Henry, G; Hutchinson, M; Pabst, H. 
+ Proceedings of Intl. Supercomputing Conference, 981-991 (2016). 
+ LIBXSMM: Accelerating Small Matrix Multiplications
+ by Runtime Code Generation.
+ https://doi.org/10.1109/SC.2016.83
+
+ Del Ben, M; Schuett, O; Wentz, T; Messmer, P; Hutter, J;
+ VandeVondele, J. 
+ COMPUTER PHYSICS COMMUNICATIONS, 187, 120-129 (2015). 
+ Enabling simulation at the fifth rung of DFT: Large scale RPA
+ calculations with excellent time to solution.
+ https://doi.org/10.1016/j.cpc.2014.10.021
+
+ Borstnik, U; VandeVondele, J; Weber, V; Hutter, J. 
+ PARALLEL COMPUTING, 40 (5-6), 47-58 (2014). 
+ Sparse matrix multiplication: The distributed block-compressed sparse
+ row library.
+ https://doi.org/10.1016/j.parco.2014.03.012
+
+ Hutter, J; Iannuzzi, M; Schiffmann, F; VandeVondele, J. 
+ WIREs Comput Mol Sci., 4 (1), 15-25 (2014). 
+ CP2K: atomistic simulations of condensed matter systems.
+ https://doi.org/10.1002/wcms.1159
+
+ Marek, A; Blum, V; Johanni, R; Havu, V; Lang, B; Auckenthaler, T;
+ Heinecke, A; Bungartz, H; Lederer, H. 
+ Journal of Physics: Condensed Matter, 26 (21), (2014). 
+ The ELPA library: scalable parallel eigenvalue solutions for
+ electronic structure
+ theory and computational science.
+ https://doi.org/10.1088/0953-8984/26/21/213201
+
+ Del Ben, M; Hutter, J; VandeVondele, J. 
+ JOURNAL OF CHEMICAL THEORY AND COMPUTATION, 9 (6), 2654-2671 (2013). 
+ Electron Correlation in the Condensed Phase from a Resolution of
+ Identity Approach Based on the Gaussian and Plane Waves Scheme.
+ https://doi.org/10.1021/ct4002202
+
+ Del Ben, M; Hutter, J; VandeVondele, J. 
+ JOURNAL OF CHEMICAL THEORY AND COMPUTATION, 8 (11), 4177-4188 (2012). 
+ Second-Order Moller-Plesset Perturbation Theory in the Condensed Phase:
+ An Efficient and Massively Parallel Gaussian and Plane Waves Approach.
+ https://doi.org/10.1021/ct300531w
+
+ Frigo, M; Johnson, SG. 
+ PROCEEDINGS OF THE IEEE, 93 (2), 216-231 (2005). 
+ The design and implementation of FFTW3.
+ https://doi.org/10.1109/JPROC.2004.840301
+
+ Lippert, G; Hutter, J; Parrinello, M. 
+ THEORETICAL CHEMISTRY ACCOUNTS, 103 (2), 124-140 (1999). 
+ The Gaussian and augmented-plane-wave density functional method for ab
+ initio molecular dynamics simulations.
+ https://doi.org/10.1007/s002140050523
+
+ Krack, M; Parrinello, M. 
+ PHYSICAL CHEMISTRY CHEMICAL PHYSICS, 2 (10), 2105-2112 (2000). 
+ All-electron ab-initio molecular dynamics.
+ https://doi.org/10.1039/b001167n
+
+ Martyna, GJ; Tuckerman, ME. 
+ JOURNAL OF CHEMICAL PHYSICS, 110 (6), 2810-2821 (1999). 
+ A reciprocal space based method for treating long range interactions in
+ ab initio and force-field-based calculations in clusters.
+ https://doi.org/10.1063/1.477923
+
+ Perdew, JP; Burke, K; Ernzerhof, M. 
+ PHYSICAL REVIEW LETTERS, 77 (18), 3865-3868 (1996). 
+ Generalized gradient approximation made simple.
+ https://doi.org/10.1103/PhysRevLett.77.3865
+
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                T I M I N G                                  -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+ CP2K                                 1  1.0    0.106    0.144 3010.869 3010.877
+ qs_energies                          1  2.0    0.002    0.019 3009.848 3009.862
+ mp2_main                             1  3.0    0.008    0.012 2975.143 2975.156
+ mp2_gpw_main                         1  4.0    0.005    0.007 2974.314 2974.328
+ rpa_ri_compute_en                    1  5.0    0.000    0.001 2955.293 2955.307
+ rpa_num_int                          1  6.0    0.005    0.021 2955.290 2955.303
+ compute_mat_P_omega                  1  7.0    0.001    0.003 2879.256 2879.303
+ compute_mat_P_omega_contract        10  8.0   11.511   12.098 2876.936 2876.969
+ dbt_total                         2336  9.6    0.021    0.024 2876.854 2876.866
+ dbt_contract                       787 11.0    0.087    0.116 2371.570 2372.973
+ dbt_tas_total                     1149 12.2   14.953   18.853 2298.613 2298.620
+ dbt_tas_multiply                   807 12.1    0.003    0.003 2296.180 2296.189
+ dbt_tas_dbm                        807 14.1    0.004    0.007 2084.114 2084.120
+ dbm_multiply                       807 16.1 1694.641 1890.854 1694.641 1890.854
+ dbt_tas_mm_1N                      524 15.1    0.002    0.003  865.671 1039.311
+ compute_mat_P_omega_calc_P_t       250  9.0    0.001    0.001  916.880  916.883
+ compute_mat_P_omega_calc_M_occ     250  9.0   11.526   12.186  907.006  907.009
+ dbt_tas_mm_2                       251 15.0    0.002    0.004  873.583  873.586
+ mp_sync                           8785 11.7  464.453  783.531  464.453  783.531
+ compute_mat_P_omega_calc_M_vir     250  9.0    0.001    0.001  696.356  696.358
+ dbt_copy                          1113 10.7    0.048    0.061  471.540  484.330
+ dbt_reshape                       1100 11.7   96.256  105.302  465.883  478.659
+ mp_waitall_2                      3674 15.2  303.040  374.055  303.040  374.055
+ dbt_communicate_buffer            1100 12.7    0.248    0.279  340.356  349.685
+ mp_isend_dv                     270753 14.9   64.473  158.214   64.473  158.214
+ compute_mat_P_omega_copy_M_vir     250  9.0    0.002    0.002   98.123   98.293
+ convert_to_new_pgrid              2421 14.1    0.381    0.607   80.175   91.173
+ dbm_copy                          1578 15.0   77.343   88.208   77.343   88.208
+ dbt_tas_reserve_blocks_index      3278 14.4    3.392    3.836   73.313   84.660
+ dbt_reserve_blocks_index          2851 13.1    0.525    0.602   73.063   84.417
+ dbm_reserve_blocks                3648 15.4   72.734   84.143   72.734   84.143
+ dbt_reserve_blocks_index_array    2793 12.2    0.024    0.028   72.745   84.134
+ compute_mat_P_omega_copy_M_occ     250  9.0    0.002    0.002   64.973   65.171
+ -------------------------------------------------------------------------------
+
+ The number of warnings for this run is : 1
+ 
+ -------------------------------------------------------------------------------
+  **** **** ******  **  PROGRAM ENDED AT                 2023-08-09 16:53:30.061
+ ***** ** ***  *** **   PROGRAM RAN ON                                  n2cn0949
+ **    ****   ******    PROGRAM RAN BY                                  eprop2d1
+ ***** **    ** ** **   PROGRAM PROCESS ID                               4122046
+  **** **  *******  **  PROGRAM STOPPED IN /scratch/hpc-prf-eprop2d/eprop2d1_Jan
+                                           /10_Intel_optimizing_GW/2_larger_test
+                                           /2_two_nanoribbons
